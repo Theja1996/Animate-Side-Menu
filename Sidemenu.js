@@ -44,11 +44,11 @@ export default class Sidemenu extends React.Component
   renderMenu()
   {
 
-    return(
-      menuData.map((item,index)=>{
-              return this.renderItem(item)
-      })
-    )
+     return (
+     
+    
+      menuData.map(item =>this.renderItem(item))
+    );
   }
 
   renderItem(item){
